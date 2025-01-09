@@ -28,7 +28,7 @@ const App = () => {
           <button type="submit">Log In</button>
         </form>
         )}
-        {isLoggedIn && <p>You are successfully logged in!</p>}  {/* Display message conditionally */}
+        {isLoggedIn && <p>You are logged in!</p>}  {/* Display message conditionally */}
     </div>
   )
 }
